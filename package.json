@@ -6,6 +6,7 @@
   "module": "dist/mag-component-library.es.js",
   "scripts": {
     "build": "rollup -c",
+    "start": "rollup -c",
     "bundle-size": "cat dist/mag-component-library.js | gzip | wc -c",
     "storybook": "start-storybook -p 9000 -c .storybook"
   },
